@@ -6,6 +6,10 @@ img {
     border-radius: 3vw;
 }
 
+#christine .image_container {
+    margin-top: -10vw;
+}
+
 video {
     width: 70vw;
     border-radius: 2vw;
@@ -278,60 +282,59 @@ nav a {
     position: relative;
     font-weight: 800;
     text-align: center;
-    margin: 6vw 0 0;
 }
 
 
 .hover_design1 {
-    margin: 9.5vw 0;
+    padding: 9.5vw 0;
     font-size: 5vw;
 
 }
 
 .hover_design2 {
-    margin: 9.5vw 0;
+    padding: 10vw 0;
     font-size: 5.5vw;
 
 }
 
 .hover_design3 {
-    margin: 5vw;
+    padding: 4.5vw 0;
     font-size: 3.8vw;
 
 }
 
 .hover_design4 {
-    margin: 15vw 0;
+    padding: 15.3vw 0;
     font-size: 5vw;
 
 }
 
 .hover_design5 {
-    margin: 10vw 0;
+    padding: 10vw 0;
     font-size: 4vw;
 
 }
 
 .hover_design6 {
-    margin: 11vw 0;
+    padding: 10.2vw 0;
     font-size: 5.4vw;
 
 }
 
 .hover_design7 {
-    margin: 10vw 0;
+    padding: 10vw 0;
     font-size: 4.4vw;
 
 }
 
 .hover_design8 {
-    margin: 12.5vw 0;
+    padding: 12.5vw 0;
     font-size: 6.5vw;
 
 }
 
 .hover_design9 {
-    margin: 9.5vw 0;
+    padding: 9vw 0;
     font-size: 2.5vw;
 
 }
@@ -704,8 +707,9 @@ nav a {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    padding: 1vw;
+    padding: 1vw 6vw;
     bottom: 0;
+
 }
 
 .bottom_part_left {
@@ -938,7 +942,7 @@ nav a {
     }
 
     #christine .image_container {
-        margin-top: 35vw;
+        margin-top: 30vw;
     }
 
     #christine h1 {
@@ -990,54 +994,55 @@ nav a {
     }
 
     .hover_design1 {
-        margin: 4.5vw;
+        padding: 4.5vw 0;
         font-size: 2vw;
 
     }
 
     .hover_design2 {
-
+        padding: 5.5vw 0;
         font-size: 2.5vw;
 
     }
 
     .hover_design3 {
-        margin: 2vw;
+        padding: 2vw;
         font-size: 1.5vw;
 
     }
 
     .hover_design4 {
-        margin: 10vw 0;
+        padding: 10vw 0;
         font-size: 3vw;
 
     }
 
     .hover_design5 {
-        margin: 5vw 0;
+        padding: 5vw 0;
         font-size: 1.5vw;
 
     }
 
     .hover_design6 {
-
+        padding: 6.3vw 0;
         font-size: 2.2vw;
 
     }
 
     .hover_design7 {
-        margin: 4.8vw 0;
+        padding: 4.8vw 0;
         font-size: 1.6vw;
 
     }
 
     .hover_design8 {
-        margin: 8vw 0;
+        padding: 8vw 0;
         font-size: 3.5vw;
 
     }
 
     .hover_design9 {
+        padding: 6vw 0;
         font-size: 1.6vw;
 
     }
