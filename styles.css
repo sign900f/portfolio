@@ -277,7 +277,8 @@ nav a {
 }
 
 .hover_design {
-    color: #3e203d;
+    color: #1c171d;
+    text-shadow: 0vw 0vw 0.7vw #ffed18;
     font-size: 4vw;
     position: relative;
     font-weight: 800;
@@ -405,7 +406,7 @@ nav a {
 }
 
 .figur6 {
-    background-image: url(billeder/forside/christine.png);
+    background-image: url(billeder/forside/xd.png);
     height: 40vw;
     width: 40vw;
     top: 165vw;
@@ -418,7 +419,7 @@ nav a {
 }
 
 .figur7 {
-    background-image: url(billeder/forside/christine.png);
+    background-image: url(billeder/forside/web.png);
     height: 35vw;
     width: 35vw;
     top: 190vw;
@@ -431,7 +432,7 @@ nav a {
 }
 
 .figur8 {
-    background-image: url(billeder/forside/christine.png);
+    background-image: url(billeder/forside/mingle.png);
     height: 47vw;
     width: 47vw;
     top: 210vw;
@@ -444,7 +445,7 @@ nav a {
 }
 
 .figur9 {
-    background-image: url(billeder/forside/christine.png);
+    background-image: url(billeder/forside/doku.png);
     height: 28vw;
     width: 28vw;
     top: 228vw;
@@ -980,16 +981,18 @@ nav a {
 
     .footer_wave_front {
         position: relative;
-        top: 120vw;
+        top: 140vw;
     }
 
 
     .hover_design:hover {
-        color: #3e203d;
+        color: #1c171d;
+        text-shadow: 0vw 0vw 0.7vw #ffed18;
     }
 
     .hover_design {
         color: transparent;
+        text-shadow: 0vw 0vw 0.7vw rgba(255, 237, 24, 0);
         font-size: 2vw;
     }
 
