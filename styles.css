@@ -29,6 +29,7 @@ footer {
     bottom: 0;
 }
 
+
 .footer_wave_front {
     position: relative;
     top: 235vw;
@@ -151,7 +152,7 @@ p {
 
 .hund_svaev {
     animation-name: hund_svaev;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
@@ -278,7 +279,7 @@ nav a {
 
 .hover_design {
     color: #1c171d;
-    text-shadow: 0vw 0vw 0.7vw #ffed18;
+    text-shadow: 0vw 0vw 0.4vw #98E850;
     font-size: 4vw;
     position: relative;
     font-weight: 800;
@@ -462,7 +463,6 @@ nav a {
 
 .image_container {
     position: relative;
-    margin: auto;
     height: 45vw;
 
 }
@@ -474,6 +474,8 @@ nav a {
     left: 0;
     height: 45vw;
     object-fit: contain;
+    border-radius: 10vw;
+
 
 }
 
@@ -504,7 +506,6 @@ nav a {
     left: 22vw;
 
 }
-
 
 
 /********************************temaboble*************************************/
@@ -652,6 +653,23 @@ nav a {
     margin: 1.5vw 0 25vw 21vw;
 }
 
+
+/******************************************OM******************************************/
+
+#om {
+    margin: -30vw 0 0;
+
+}
+
+#om p {
+    padding: 0 15vw;
+    margin: 5vw 0 20vw;
+}
+
+#om h1 {
+    margin: 0 40vw 0 0;
+    letter-spacing: -5vw;
+}
 
 /********************************generelt i hver opgave*************************************/
 
@@ -987,7 +1005,7 @@ nav a {
 
     .hover_design:hover {
         color: #1c171d;
-        text-shadow: 0vw 0vw 0.7vw #ffed18;
+        text-shadow: 0vw 0vw 0.3vw #98E850;
     }
 
     .hover_design {
