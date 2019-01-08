@@ -25,8 +25,11 @@ body {
 footer {
     position: relative;
     bottom: 0;
+}
 
-
+.footer_wave_front {
+    position: relative;
+    top: 235vw;
 }
 
 
@@ -271,19 +274,68 @@ nav a {
 }
 
 .hover_design {
-    color: transparent;
+    color: #3e203d;
     font-size: 4vw;
     position: relative;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
     margin: 6vw 0 0;
 }
 
 
-.hover_design:hover {
-    color: black;
+.hover_design1 {
+    margin: 9.5vw 0;
+    font-size: 5vw;
+
 }
 
+.hover_design2 {
+    margin: 9.5vw 0;
+    font-size: 5.5vw;
+
+}
+
+.hover_design3 {
+    margin: 5vw;
+    font-size: 3.8vw;
+
+}
+
+.hover_design4 {
+    margin: 15vw 0;
+    font-size: 5vw;
+
+}
+
+.hover_design5 {
+    margin: 10vw 0;
+    font-size: 4vw;
+
+}
+
+.hover_design6 {
+    margin: 11vw 0;
+    font-size: 5.4vw;
+
+}
+
+.hover_design7 {
+    margin: 10vw 0;
+    font-size: 4.4vw;
+
+}
+
+.hover_design8 {
+    margin: 12.5vw 0;
+    font-size: 6.5vw;
+
+}
+
+.hover_design9 {
+    margin: 9.5vw 0;
+    font-size: 2.5vw;
+
+}
 
 .figur1 {
     background-image: url(billeder/forside/stilart.png);
@@ -874,12 +926,6 @@ nav a {
         width: 18vw;
     }
 
-    .hover_design {
-        font-size: 2vw;
-    }
-
-
-
     #christine .text {
         top: -30vw;
     }
@@ -904,4 +950,74 @@ nav a {
     #atmos .image_container {
         margin-top: 75vw;
     }
+
+    .footer_wave_front {
+        position: relative;
+        top: 120vw;
+    }
+
+
+    .hover_design:hover {
+        color: #3e203d;
+    }
+
+    .hover_design {
+        color: transparent;
+        font-size: 2vw;
+    }
+
+    .hover_design1 {
+        margin: 4.5vw;
+        font-size: 2vw;
+
+    }
+
+    .hover_design2 {
+
+        font-size: 2.5vw;
+
+    }
+
+    .hover_design3 {
+        margin: 2vw;
+        font-size: 1.5vw;
+
+    }
+
+    .hover_design4 {
+        margin: 10vw 0;
+        font-size: 3vw;
+
+    }
+
+    .hover_design5 {
+        margin: 5vw 0;
+        font-size: 1.5vw;
+
+    }
+
+    .hover_design6 {
+
+        font-size: 2.2vw;
+
+    }
+
+    .hover_design7 {
+        margin: 4.8vw 0;
+        font-size: 1.6vw;
+
+    }
+
+    .hover_design8 {
+        margin: 8vw 0;
+        font-size: 3.5vw;
+
+    }
+
+    .hover_design9 {
+        font-size: 1.6vw;
+
+    }
+
+
 }
