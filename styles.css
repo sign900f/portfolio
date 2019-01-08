@@ -32,7 +32,13 @@ footer {
 
 .footer_wave_front {
     position: relative;
-    top: 235vw;
+    top: 270vw;
+}
+
+
+.footer_wave_om {
+    position: relative;
+    top: 70vw;
 }
 
 
@@ -411,7 +417,7 @@ nav a {
     height: 40vw;
     width: 40vw;
     top: 165vw;
-    left: 12vw;
+    left: 9vw;
 }
 
 .figur_billede6 {
@@ -998,8 +1004,12 @@ nav a {
     }
 
     .footer_wave_front {
-        position: relative;
-        top: 140vw;
+        top: 150vw;
+    }
+
+
+    .footer_wave_om {
+        top: 0;
     }
 
 
