@@ -9,11 +9,9 @@ img {
 video {
     width: 70vw;
     border-radius: 2vw;
+    margin: 2vw 2vw 4vw;
 }
 
-#frontpage {
-    background-color: rgba(217, 195, 133, 0.62);
-}
 
 body {
     margin: 0;
@@ -112,6 +110,7 @@ p {
 
 .bottom_title h2 {
     font-family: 'spaced_outregular';
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
     letter-spacing: -1.7vw;
     color: #11162a;
     background-color: #70C028;
@@ -512,6 +511,14 @@ nav a {
     height: 28vw;
     left: 65vw;
     top: -22vw;
+}
+
+.caption_om {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    left: 58vw;
+    top: -18vw;
 }
 
 .caption img {
@@ -949,6 +956,22 @@ nav a {
 
     #atmos .image_container {
         margin-top: 75vw;
+    }
+
+    #night_out .image_container {
+        margin-top: 25vw;
+    }
+
+    #xd_proto .image_container {
+        margin-top: 30vw;
+    }
+
+    #web_proto .image_container {
+        margin-top: 25vw;
+    }
+
+    #mingle .image_container {
+        margin-top: 35vw;
     }
 
     .footer_wave_front {
