@@ -1,0 +1,907 @@
+img {
+    width: 100%;
+}
+
+.image_container img {
+    border-radius: 3vw;
+}
+
+video {
+    width: 70vw;
+    border-radius: 2vw;
+}
+
+#frontpage {
+    background-color: rgba(217, 195, 133, 0.62);
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+
+}
+
+
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+.paused {
+    animation-play-state: paused;
+}
+
+/********************************fonts*************************************/
+
+@font-face {
+    font-family: 'spaced_outregular';
+    src: url('skrifttyper/spaced_out/spaced_out-webfont.woff2') format('woff2'),
+        url('skrifttyper/spaced_out/spaced_out-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brastagiregular';
+    src: url('skrifttyper/brastagi/brastagi_font_by_7ntypes-webfont.woff2') format('woff2'),
+        url('skrifttyper/brastagi/brastagi_font_by_7ntypes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2,
+h3,
+p,
+a {
+    font-family: 'Catamaran', sans-serif;
+    color: #132850;
+}
+
+a {
+    font-size: 2vw;
+}
+
+
+h1 {
+
+    font-family: 'spaced_outregular', normal;
+    color: #70C028;
+    font-size: 12vw;
+    letter-spacing: -7vw;
+    margin: 0 5vw -4vw 0;
+
+}
+
+
+p {
+    font-size: 2vw;
+}
+
+.caption h2 {
+    margin: -2vw 0;
+    font-size: 6vw;
+}
+
+.caption h3 {
+    margin: 0 0.5vw;
+    font-size: 5vw;
+
+}
+
+.bottom_part p {
+    color: #11162a;
+}
+
+.bottom_title h2 {
+    font-family: 'spaced_outregular';
+    letter-spacing: -1.7vw;
+    color: #11162a;
+    background-color: #70C028;
+    font-weight: 400;
+    font-size: 4vw;
+    padding: 1vw 0;
+
+}
+
+/********************************animationer*************************************/
+
+
+.background_spin {
+    animation-name: background_spin;
+    animation-duration: 300s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes background_spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+.hund_svaev {
+    animation-name: hund_svaev;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes hund_svaev {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: right;
+    }
+
+    50% {
+        transform: rotate(30deg);
+
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: left;
+
+    }
+}
+
+
+/**************************** menu *********************************/
+
+nav {
+    position: absolute;
+    top: 3.5vw;
+    left: 2.5vw;
+    z-index: 2;
+}
+
+
+nav a:link,
+nav a:visited,
+nav a:active {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #e6c4c4;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #70C028;
+
+}
+
+nav a {
+    padding: 3.8vw;
+
+}
+
+
+
+/********************************forside*************************************/
+#splash {
+    position: relative;
+}
+
+#background {
+    background-image: url("billeder/baggrund_green.png");
+    width: 100vw;
+    height: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1vw;
+
+}
+
+#middelground {
+    background-image: url("billeder/middelground.png");
+    height: 130vw;
+    width: 140vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -34vw;
+    left: -20vw;
+}
+
+#forground {
+    background-image: url("billeder/foreground.png");
+    height: 100vw;
+    width: 100vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -2.7vw;
+
+}
+
+
+
+.figur_billede {
+    background-image: url(billeder/blaaplanet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+
+
+.figur {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.figur a {
+    text-decoration: none;
+}
+
+.figur:hover {
+    transform: scale(1.1);
+}
+
+.hover_design {
+    color: transparent;
+    font-size: 4vw;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    margin: 6vw 0 0;
+}
+
+
+.hover_design:hover {
+    color: black;
+}
+
+
+.figur1 {
+    background-image: url(billeder/forside/stilart.png);
+    height: 36vw;
+    width: 36vw;
+    top: 63vw;
+    left: 58vw;
+}
+
+.figur_billede1 {
+    height: 36vw;
+    width: 36vw;
+}
+
+.figur2 {
+    background-image: url(billeder/forside/christine.png);
+    height: 40vw;
+    width: 40vw;
+    top: 80vw;
+    left: 2vw;
+}
+
+.figur_billede2 {
+    height: 40vw;
+    width: 40vw;
+}
+
+.figur3 {
+    background-image: url(billeder/forside/atmos.png);
+    height: 30vw;
+    width: 30vw;
+    top: 105vw;
+    left: 43vw;
+}
+
+.figur_billede3 {
+    height: 30vw;
+    width: 30vw;
+}
+
+.figur4 {
+    background-image: url(billeder/forside/nightout.png);
+    height: 50vw;
+    width: 50vw;
+    top: 135vw;
+    left: 47vw;
+}
+
+.figur_billede4 {
+    height: 50vw;
+    width: 50vw;
+}
+
+.figur5 {
+    background-image: url(billeder/forside/sexogsamf.png);
+    height: 35vw;
+    width: 35vw;
+    top: 127vw;
+    left: 5vw;
+}
+
+.figur_billede5 {
+    height: 35vw;
+    width: 35vw;
+}
+
+.figur6 {
+    background-image: url(billeder/forside/christine.png);
+    height: 40vw;
+    width: 40vw;
+    top: 165vw;
+    left: 12vw;
+}
+
+.figur_billede6 {
+    height: 40vw;
+    width: 40vw;
+}
+
+.figur7 {
+    background-image: url(billeder/forside/christine.png);
+    height: 35vw;
+    width: 35vw;
+    top: 190vw;
+    left: 55vw;
+}
+
+.figur_billede7 {
+    height: 35vw;
+    width: 35vw;
+}
+
+.figur8 {
+    background-image: url(billeder/forside/christine.png);
+    height: 47vw;
+    width: 47vw;
+    top: 210vw;
+    left: 0vw;
+}
+
+.figur_billede8 {
+    height: 47vw;
+    width: 47vw;
+}
+
+.figur9 {
+    background-image: url(billeder/forside/christine.png);
+    height: 28vw;
+    width: 28vw;
+    top: 228vw;
+    left: 68vw;
+}
+
+.figur_billede9 {
+    height: 28vw;
+    width: 28vw;
+}
+
+
+/********************************billede slideshow*************************************/
+
+.image_container {
+    position: relative;
+    margin: auto;
+    height: 45vw;
+
+}
+
+
+.image_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45vw;
+    object-fit: contain;
+
+}
+
+.button {
+    background-color: rgba(113, 95, 95, 0.05);
+    border: none;
+    cursor: pointer;
+    padding: 2vw;
+    flex-basis: 20vw;
+    border-radius: 50px;
+    padding: 3vw 3.5vw;
+    font-weight: 500;
+    font-size: 2.5vw;
+    margin: 7vw 1vw 20vw;
+    color: #5f5f5f;
+
+}
+
+.image_text h3 {
+    font-family: 'spaced_outregular';
+    letter-spacing: -1.3vw;
+    font-size: 2.5vw;
+    font-weight: 800;
+    position: absolute;
+    margin: auto;
+    top: -5vw;
+    z-index: 2;
+    left: 22vw;
+
+}
+
+
+
+/********************************temaboble*************************************/
+
+.caption {
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    left: 65vw;
+    top: -22vw;
+}
+
+.caption img {
+    position: absolute;
+
+}
+
+.caption h2 {
+    font-size: 5vw;
+    position: absolute;
+    top: 10.8vw;
+    left: 6vw;
+
+}
+
+.caption h3 {
+    font-size: 3vw;
+    position: absolute;
+    top: 14.5vw;
+    left: 6.7vw;
+}
+
+/******** 2 *********/
+.caption2 h2 {
+    top: 10.2vw;
+    left: 6vw;
+}
+
+.caption2 h3 {
+    top: 13.5vw;
+    font-size: 3.5vw;
+    left: 7.7vw;
+}
+
+/******** 3 *********/
+
+.caption3 h2 {
+    top: 10.2vw;
+    left: 6vw;
+}
+
+.caption3 h3 {
+    top: 13.5vw;
+    font-size: 3.5vw;
+    left: 6.2vw;
+}
+
+/******** 4 *********/
+
+.caption4 h3 {
+    font-size: 4vw;
+    left: 10.5vw;
+}
+
+
+/********************************overskrift*************************************/
+
+
+#stilartssite h1 {
+    font-size: 13vw;
+}
+
+
+#stilartssite .text h2 {
+    margin: 0vw 0 25vw 20vw;
+}
+
+#atmos h1 {
+    font-size: 17vw;
+    letter-spacing: -8vw;
+    margin: 0 5vw -7vw 0;
+}
+
+#atmos .text h2 {
+
+    margin: 1.5vw 0 25vw 18vw;
+}
+
+#christine .text {
+    top: -20vw;
+}
+
+#christine h1 {
+    font-size: 11vw;
+    letter-spacing: -6.5vw;
+}
+
+
+#night_out h1 {
+    font-size: 14vw;
+    letter-spacing: -8vw;
+}
+
+#night_out .text h2 {
+    margin: 0vw 0 25vw 18vw;
+}
+
+
+#nudes h1 {
+    font-size: 13.5vw;
+}
+
+#xd_proto h1,
+#web_proto h1 {
+    font-size: 15vw;
+    letter-spacing: -8vw;
+}
+
+
+#mingle h1 {
+    font-size: 13vw;
+}
+
+
+#mingle .text h2 {
+    margin: 1vw 0 25vw 21vw;
+}
+
+
+#doku h1 {
+    font-size: 8vw;
+    letter-spacing: -3.5vw;
+}
+
+
+#doku .text h2 {
+    margin: 1.5vw 0 25vw 21vw;
+}
+
+
+/********************************generelt i hver opgave*************************************/
+
+.hund {
+    position: fixed;
+    top: 47vw;
+    height: 25vw;
+    width: 25vw;
+    right: 0;
+    z-index: -2;
+}
+
+
+
+.opgaven {
+    background-image: url(billeder/planet2.png);
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 22vw;
+    left: -2.5vw;
+    top: 51vw;
+
+}
+
+.opgaven a {
+    z-index: 1;
+    cursor: pointer;
+    font-size: 5vw;
+    position: absolute;
+    top: 7vw;
+    left: 5.5vw;
+    font-family: 'Catamaran', sans-serif;
+    color: #132850;
+    font-weight: 900;
+
+}
+
+.opgaven a:hover {
+    cursor: pointer;
+    color: #70C028;
+
+}
+
+.sectionwrapper {
+    text-align: center;
+    top: 10vw;
+
+}
+
+
+.bottom_part {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    bottom: 0;
+}
+
+.bottom_part_left {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 3vw;
+
+}
+
+.bottom_part_right {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 3vw;
+}
+
+.bottom_part_right img {
+
+    border-radius: 2vw;
+}
+
+.text {
+    position: relative;
+    padding: 0 10vw;
+    justify-content: center;
+    top: -12vw;
+}
+
+.text h2 {
+    font-weight: 200;
+    font-size: 4vw;
+    text-shadow: 0.05rem 0.05rem 0.05rem #7f3089;
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 1.5vw 0 25vw 10vw;
+}
+
+.text a {
+    color: #132850;
+    margin: 1vw;
+
+
+}
+
+.text a:hover {
+    color: #70C028;
+
+}
+
+
+/********************************Mediaquery*************************************/
+
+@media only screen and (min-width: 1000px) {
+    .text {
+        height: 35vw;
+        top: -27vw;
+        margin: 0 0 15vw;
+    }
+
+    .text h2 {
+        margin: 0 0 25vw 15vw;
+    }
+
+
+    .opgaven {
+        top: 28vw;
+
+    }
+
+    .hund {
+        top: 29vw;
+    }
+
+    .button {
+        padding: 1vw 1.5vw;
+        border-radius: 10vw;
+        font-size: 2vw;
+        margin: 2vw 2vw 10vw;
+        ;
+    }
+
+    nav {
+        left: 0;
+
+    }
+
+
+    .image_container {
+
+        height: 35vw;
+        margin: auto;
+
+    }
+
+
+    .image_container img {
+
+        height: 35vw;
+
+    }
+
+    .bottom_part_right img:hover {
+        transform: scale(2.15);
+        transform-origin: right;
+        border-radius: 2vw;
+
+    }
+
+
+
+
+    .figur1 {
+        height: 16vw;
+        width: 16vw;
+        top: 61vw;
+        left: 79vw;
+    }
+
+    .figur_billede1 {
+        height: 16vw;
+        width: 16vw;
+    }
+
+    .figur2 {
+
+        height: 20vw;
+        width: 20vw;
+        top: 68vw;
+        left: 24vw;
+    }
+
+    .figur_billede2 {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .figur3 {
+
+        height: 12vw;
+        width: 12vw;
+        top: 95vw;
+        left: 27vw;
+    }
+
+    .figur_billede3 {
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .figur4 {
+
+        height: 30vw;
+        width: 30vw;
+        top: 75vw;
+        left: 47vw;
+    }
+
+    .figur_billede4 {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .figur5 {
+
+        height: 15vw;
+        width: 15vw;
+        top: 87vw;
+        left: 5vw;
+    }
+
+    .figur_billede5 {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .figur6 {
+
+        height: 20vw;
+        width: 20vw;
+        top: 95vw;
+        left: 77vw;
+    }
+
+    .figur_billede6 {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .figur7 {
+
+        height: 15vw;
+        width: 15vw;
+        top: 107vw;
+        left: 38vw;
+    }
+
+    .figur_billede7 {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .figur8 {
+
+        height: 27vw;
+        width: 27vw;
+        top: 114vw;
+        left: 6vw;
+    }
+
+    .figur_billede8 {
+        height: 27vw;
+        width: 27vw;
+    }
+
+    .figur9 {
+
+        height: 18vw;
+        width: 18vw;
+        top: 116vw;
+        left: 59vw;
+    }
+
+    .figur_billede9 {
+        height: 18vw;
+        width: 18vw;
+    }
+
+    .hover_design {
+        font-size: 2vw;
+    }
+
+
+
+    #christine .text {
+        top: -30vw;
+    }
+
+    #christine .image_container {
+        margin-top: 35vw;
+    }
+
+    #christine h1 {
+        font-size: 9vw;
+        letter-spacing: -5vw;
+    }
+
+    #christine .text h2 {
+        margin: 2vw 0vw 25vw 29vw;
+    }
+
+    #nudes .image_container {
+        margin-top: 35vw;
+    }
+
+    #atmos .image_container {
+        margin-top: 75vw;
+    }
+}
